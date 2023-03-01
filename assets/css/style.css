@@ -297,7 +297,9 @@ a {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 900;
-    color: #fff; }
+    color: #fff;
+    /* height: 80px; */
+   }
   .nav-area ul {
     text-align: right;
     margin-top: 10px; }
@@ -578,7 +580,7 @@ a {
     transform: translate(-50%, -50%); }
 
 /*====================
-** Counter 
+** Counter
 ====================*/
 .counter-section {
   padding-top: 94px;
@@ -706,7 +708,7 @@ a {
     box-shadow: 0 0 40px #777; }
 
 /*====================
-** My Team 
+** My Team
 ====================*/
 .team-area {
   padding-top: 67px;
@@ -1029,7 +1031,7 @@ section.blog-area {
   padding-bottom: 96px; }
 
 /*====================
-** Contact 
+** Contact
 ====================*/
 .contact-area {
   background-color: #eee;
@@ -1076,7 +1078,7 @@ section.blog-area {
     background-color: #2A2A2A; }
 
 /*==================
-** preloader 
+** preloader
 ===================*/
 .preloader {
   position: fixed;
@@ -1226,7 +1228,7 @@ section.blog-area {
   50% {
     transform: scale(1.2, 1); } }
 /*==================
-** Footer  
+** Footer
 ===================*/
 .footer-area {
   padding-top: 25px;
