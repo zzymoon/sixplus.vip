@@ -109,11 +109,18 @@
 		 $('#main-menu li a').on('click', function(event) {
 			 event.preventDefault();
 			 var anchor = $(this).attr('href');
-			  var top = $(anchor).offset().top;
+			  var target = $(anchor);
+			  if (!target.length) {
+				  return;
+			  }
 			     $('html, body').animate({
-						scrollTop: $(anchor).offset().top
+						scrollTop: target.offset().top
 					}, 1000);
 		  });
+		var currentYear = $('#current-year');
+		if (currentYear.length) {
+			currentYear.text(new Date().getFullYear());
+		}
         /*bottom to top*/
         $(document).on('click','.go-top',function(){
            $("html,body").animate({
